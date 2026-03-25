@@ -1,0 +1,18 @@
+{
+  "build": {
+    "production": {
+      "ios": {
+        "distribution": "store",
+        "autoIncrement": "buildNumber"
+      }
+    },
+    "preview": {
+      "ios": {
+        "distribution": "internal"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
